@@ -7,9 +7,76 @@ import Zedd from './img/5.jpg';
 import SanHolo from './img/6.jpg';
 import Alesso from './img/7.jpeg';
 import Slander from './img/8.jpg';
+
+import ArtistItem from './ArtistItems/ArtistItem.js';
 import './img/background.jpg';
 import './Artist.css';
 
+class Artist extends React.Component{
+    constructor(){
+        super();
+
+        this.state = {
+            section: [{
+                name: 'Marshmello',
+                image: Marshmello,
+                id: 1
+            },
+            {
+                name: 'Illenium',
+                image: Illenium,
+                id: 2
+            },
+            {
+                name: 'Gryffin',
+                image: Gryffin,
+                id: 3
+            },
+            {
+                name: 'Chainsmokers',
+                image: Chainsmokers,
+                id: 4
+            },
+            {
+                name: 'Zedd',
+                image: Zedd,
+                id: 5
+            },
+            {
+                name: 'San Holo',
+                image: SanHolo,
+                id: 6
+            },
+            {
+                name: 'Alesso',
+                image: Alesso,
+                id: 7
+            },
+            {
+                name: 'Slander',
+                image: Slander,
+                id: 8
+            }]
+        }
+    }
+
+    render(){
+        return(
+        <div className="dj-container">
+        <h1>Some artist includes... </h1>
+        <ul className='dj-showcase clearfix'>
+            {
+                this.state.section.map(({name, image, id}) => (
+                    <ArtistItem key={id} name={name} image={image} />
+                ))
+            }
+        </ul>
+        <h2>And many more...</h2>
+        </div>
+        )
+    }
+}
+/*
 const Artist = () => {
     return (
         <div className="dj-container">
@@ -68,5 +135,6 @@ const Artist = () => {
         </div>
     )
 }
+*/
 
 export default Artist;
