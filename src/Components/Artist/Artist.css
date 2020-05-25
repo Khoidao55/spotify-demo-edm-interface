@@ -1,83 +1,50 @@
-h1{
-    display:flex;
-    justify-content: center;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 110%;
-    margin-bottom: 15px;
-    padding-top: 50px;
-}
-h2{
-    display:flex;
-    justify-content: center;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 110%;
-    margin-bottom: 15px;
-    color: #FFF;
+.descriptions {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 110%;
+  margin-bottom: 15px;
+  padding-top: 50px;
+  color: #fff;
 }
 
-.dj-container{
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./img/background.jpg);
-    background-size:cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
+.dj-container {
+  padding-top: 5%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
 }
 
-.dj-showcase{
-    list-style: none;
-    width: 100%;
-    padding: 50px 0;
+.dj-showcase {
+  list-style: none;
+  width: 100%;
+  padding: 50px 50px;
 }
 
-.dj-showcase li{
-    display: block;
-    float:left;
-    width: 25%;
+.dj-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
 }
 
 .dj-photo {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-    position:relative;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+  position: relative;
 }
 
 .dj-photo img {
-    opacity: 0.5;
-    width: 100%;
-    height: auto;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
-}
-
-.dj-photo img:hover {
-    opacity: 1;
-    transform: scale(1.03);   
-    color: transparent;
-}
-
-.centered{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 110%;
-}
-
-.clearfix{zoom: 1}
-.clearfix:after{
-    content: '.';
-    clear: both;
-    display:block;
-    height:0;
-    visibility:hidden;
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
 }

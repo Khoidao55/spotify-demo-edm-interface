@@ -1,0 +1,166 @@
+.custom-button {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.signin-button {
+  display: inline-block;
+  padding: 10px 50px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.custom-button-full {
+  background-color: #1db954;
+  border: 1px solid #1db954;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.custom-button:hover {
+  background-color: #168d40;
+}
+
+.signin-button:hover {
+  background-color: #168d40;
+}
+
+.custom-button-full:hover {
+  border: 1px solid #168d40;
+}
+
+.custom-button-ghost {
+  border: 1px solid #1db954;
+  color: #1db954;
+  margin-right: 15px;
+}
+
+.custom-button-ghost:hover {
+  border: 1px solid #168d40;
+  color: #fff;
+}
+
+.purple-btn {
+  padding-top: 1%;
+  padding-left: 1%;
+}
+
+.purple-btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.purple-btn-ghost {
+  border: 1px solid violet;
+  color: violet;
+}
+
+.purple-btn:hover {
+  background-color: purple;
+}
+
+.purple-btn-ghost:hover {
+  border: 1px solid purple;
+  color: #fff;
+}
+
+/*
+.custom-button:link,
+.custom-button:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.signin-button:link,
+.signin-button:visited {
+  display: inline-block;
+  padding: 10px 50px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.custom-button-full:link,
+.custom-button-full:visited {
+  background-color: #1db954;
+  border: 1px solid #1db954;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.custom-button:hover,
+.custom-button:active {
+  background-color: #168d40;
+}
+
+.signin-button:hover,
+.signin-button:active {
+  background-color: #168d40;
+}
+
+.custom-button-full:hover,
+.custom-button-full:active {
+  border: 1px solid #168d40;
+}
+
+.custom-button-ghost:link,
+.custom-buttonbtn-ghost:visited {
+  border: 1px solid #1db954;
+  color: #1db954;
+  margin-right: 15px;
+}
+
+.custom-button-ghost:hover,
+.custom-button-ghost:active {
+  border: 1px solid #168d40;
+  color: #fff;
+}
+
+.purple-btn {
+  padding-top: 1%;
+  padding-left: 1%;
+}
+
+.purple-btn:link,
+.purple-btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.purple-btn-ghost:link,
+.purple-btn-ghost:visited {
+  border: 1px solid violet;
+  color: violet;
+}
+
+.purple-btn:hover,
+.purple-btn:active {
+  background-color: purple;
+}
+
+.purple-btn-ghost:hover,
+.purple-btn-ghost:active {
+  border: 1px solid purple;
+  color: #fff;
+}
+
+*/

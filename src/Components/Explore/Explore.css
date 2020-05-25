@@ -1,0 +1,47 @@
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  color: #fff;
+}
+
+.top {
+  padding-top: 5%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../Artist/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.section-features:after {
+  display: block;
+  height: 2px;
+  background-color: violet;
+  content: " ";
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.underline-title {
+  color: #fff;
+  font-size: 110%;
+  margin-bottom: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid rgba(238, 130, 238, 0.7);
+}

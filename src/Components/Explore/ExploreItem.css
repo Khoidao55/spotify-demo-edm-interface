@@ -1,0 +1,23 @@
+.box p {
+  padding-top: 10px;
+  color: #fff;
+  font-size: 90%;
+  line-height: 145%;
+}
+
+.feature-logo {
+  color: #fff;
+  height: 80px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.underline-title {
+  color: #fff;
+  font-size: 110%;
+  margin-bottom: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid rgba(238, 130, 238, 0.7);
+}
