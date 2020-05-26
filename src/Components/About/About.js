@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import CustomButton from "../CustomButton/CustomButton";
 import AppleButton from "./About-img/apple-btn.png";
 import AndroidButton from "./About-img/android-btn.png";
 import PhoneSpotify from "./About-img/iphone-spotify.png";
@@ -79,15 +80,15 @@ const About = () => {
             <div className="works-step">
               <div>1</div>
               <p>
-                Choose the subscription plan that best fits you and sign up
-                today to listen.
+                Spotify music is free to all users, but it is even better with a
+                Premium subscription with high premium sound quality!
               </p>
             </div>
             <div className="works-step">
               <div>2</div>
               <p>
-                With a subscription, search for you favorite EDM artist that you
-                enjoy!
+                Choose the subscription plan that best fits you and sign up
+                today to listen.
               </p>
             </div>
             <div className="works-step">
@@ -97,7 +98,15 @@ const About = () => {
                 premium high sound quality!
               </p>
             </div>
-
+            <div style={{ paddingLeft: "120px" }}>
+              <CustomButton
+                href="https://www.spotify.com/us/premium/?checkout=false#PLANS"
+                className="signin-button custom-button-ghost"
+              >
+                Choose your subscription
+              </CustomButton>
+            </div>
+            {/*
             <a href="#apple-button" className="btn-apple">
               <img
                 className="btn-size"
@@ -112,6 +121,7 @@ const About = () => {
                 alt="android download button"
               />
             </a>
+            */}
           </div>
         </div>
       </div>

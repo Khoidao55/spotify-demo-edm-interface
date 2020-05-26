@@ -7,7 +7,8 @@ const ArtistItem = ({ name, image, song }) => {
     <li>
       <figure className="dj-photo">
         <img src={image} alt="dj Photos" />
-        <a href=" " className="centered">
+        <h3 className="dj-name">{name}</h3>
+        <a href="#" className="centered">
           <Music song={song} />
         </a>
       </figure>

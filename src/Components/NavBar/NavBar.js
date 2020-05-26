@@ -27,7 +27,7 @@ const NavBar = ({ currentUser }) => {
             {currentUser ? (
               <a href="#signout" onClick={() => auth.signOut()}>
                 <cite className="user-profile">
-                  <img src={User} />
+                  <img src={User} alt="profile" />
                 </cite>
               </a>
             ) : (

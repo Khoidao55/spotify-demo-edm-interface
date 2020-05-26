@@ -66,7 +66,7 @@ class Artist extends React.Component {
           id: 6,
         },
         {
-          name: "Alesso",
+          name: "Elephante",
           image: Elephante,
           song: ElephanteSong,
           id: 7,
